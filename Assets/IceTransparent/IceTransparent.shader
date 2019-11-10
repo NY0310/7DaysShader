@@ -43,8 +43,6 @@
                 return o;
             }
 
-            sampler2D _MainTex;
-
             fixed4 frag (v2f i) : SV_Target
             {
                 fixed4 col = 1;
