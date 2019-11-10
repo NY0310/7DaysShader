@@ -9,6 +9,7 @@
         
         Tags { "Queue" = "Transparent" }
         Blend SrcAlpha OneMinusSrcAlpha 
+        //Cull Back
         Pass
         {
             CGPROGRAM
@@ -16,6 +17,7 @@
             #pragma fragment frag
 
             #include "UnityCG.cginc"
+            
 
             struct appdata
             {
